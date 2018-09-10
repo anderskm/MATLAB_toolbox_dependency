@@ -1,7 +1,7 @@
 clearvars;
 close all;
 
-inputFolder = pwd;
+inputFolder = uigetdir(pwd,'Select folder');
 
 %%
 
